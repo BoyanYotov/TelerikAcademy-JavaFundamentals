@@ -22,7 +22,7 @@ public class MultiplicationSignV2_08 {
             System.out.print("-");
         }
 
-        if ((a > 0 || b > 0 || c > 0) && (a > 0 || b > 0 || c > 0) && (a < 0 || b < 0 || c < 0)) {
+        if ((a > 0 || b > 0 || c > 0) && (a < 0 || b < 0 || c < 0)) {
             System.out.print("-");
         }else {
             System.out.print("+");

@@ -35,11 +35,11 @@ public class BeerTime_14 {
             return;
         }
 
-        if (day.equals("PM") && hoursNumber>=1){
+        if (day.equals("PM") && hoursNumber >= 1){
             System.out.print("beer time");
-        } else if (day.equals("AM") && hoursNumber<3 && minutesNumber<60){
+        } else if (day.equals("AM") && hoursNumber < 3 && minutesNumber < 60){
             System.out.print("beer time");
-        } else if (day.equals("AM") && hoursNumber>=3){
+        } else if (day.equals("AM") && hoursNumber >= 3){
             System.out.print("non-beer time");
         } else {
             System.out.println("invalid time");

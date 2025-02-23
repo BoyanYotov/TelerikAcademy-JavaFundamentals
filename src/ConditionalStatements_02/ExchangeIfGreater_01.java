@@ -17,9 +17,9 @@ public class ExchangeIfGreater_01 {
         String number2 = format.format(b);
 
         if (a > b){
-            System.out.print(number2+" "+number1);
+            System.out.print(number2 + " " + number1);
         } else {
-            System.out.print(number1+" "+number2);
+            System.out.print(number1 + " " + number2);
         }
     }
 }

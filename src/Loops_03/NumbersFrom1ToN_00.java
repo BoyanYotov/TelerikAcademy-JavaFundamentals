@@ -9,7 +9,7 @@ public class NumbersFrom1ToN_00 {
         int n = scanner.nextInt();
 
         for (int i = 1; i <= n ; i++) {
-            System.out.print(i+" " );
+            System.out.print(i + " " );
         }
     }
 }

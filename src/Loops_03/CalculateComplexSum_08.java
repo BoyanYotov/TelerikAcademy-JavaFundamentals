@@ -17,6 +17,6 @@ public class CalculateComplexSum_08 {
             half = factorial / Math.pow(x,(i));
             S += half;
         }
-        System.out.printf("%.5f",S+1);
+        System.out.printf("%.5f", S + 1);
     }
 }

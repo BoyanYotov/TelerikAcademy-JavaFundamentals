@@ -12,7 +12,7 @@ public class NumberWave_17 {
             System.out.print(i + " ");
         }
         for (int j = n; j > 1; j--) {
-                System.out.print(j-1 + " ");
+                System.out.print(j - 1 + " ");
             }
         }
     }

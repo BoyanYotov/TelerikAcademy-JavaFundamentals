@@ -41,17 +41,17 @@ public class VowelToLengthRatio_15 {
 
             if ((ratio < bestRatio)){
                 bestRatio = ratio;
-                bestVowels=vowels;
+                bestVowels = vowels;
                 bestFood = food;
                 bestLetters = letters;
-            } else if ((ratio==bestRatio) && (vowels>bestVowels)){
+            } else if ((ratio == bestRatio) && (vowels > bestVowels)){
                 bestFood = food;
-                bestVowels=vowels;
-                bestLetters=letters;
-            } else if ((ratio==bestRatio) && (vowels==bestVowels) && (letters>bestLetters)){
-                bestFood=food;
-                bestVowels=vowels;
-                bestLetters=letters;
+                bestVowels = vowels;
+                bestLetters = letters;
+            } else if ((ratio == bestRatio) && (vowels == bestVowels) && (letters > bestLetters)){
+                bestFood = food;
+                bestVowels = vowels;
+                bestLetters = letters;
             }
         }
         System.out.printf("%s %d/%d", bestFood, bestVowels, bestLetters);

@@ -10,7 +10,6 @@ public class ReverseNumber_02 {
         Scanner scanner = new Scanner(System.in);
 
         String input = scanner.nextLine();
-
         List<Character> listOfNumber = new ArrayList<>();
 
         for (int i = 0; i <= input.length()-1 ; i++) {
@@ -19,7 +18,6 @@ public class ReverseNumber_02 {
         }
 
         Collections.reverse(listOfNumber);
-
         for (Character c : listOfNumber) {
             System.out.print(c);
         }

@@ -33,15 +33,13 @@ public class CrookedDigits_01 {
         }
 
         int newSum = 0;
-
         while (sum > 0){
             int lastDigit = sum % 10;
             newSum += lastDigit;
-            sum/=10;
+            sum /= 10;
         }
 
         System.out.println(newSum);
         }
-
     }
 

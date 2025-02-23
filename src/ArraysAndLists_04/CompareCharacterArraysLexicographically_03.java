@@ -12,7 +12,6 @@ public class CompareCharacterArraysLexicographically_03 {
         char[] firstChar = first.toCharArray();
         char[] secondChar = second.toCharArray();
 
-
         boolean isEqual = true;
 
         for (int i = 0; i < Math.min(firstChar.length, secondChar.length); i++) {
@@ -34,7 +33,7 @@ public class CompareCharacterArraysLexicographically_03 {
                 System.out.println("equal");
             } else if (firstChar.length < secondChar.length) {
                 System.out.println("first");
-            } else if (firstChar.length > secondChar.length) {
+            } else {
                 System.out.println("second");
             }
         }

@@ -13,7 +13,7 @@ public class ExamNumbers_13 {
         int begin = Integer.parseInt(a);
         int end = Integer.parseInt(b);
 
-        for (int i = begin; i <= end ; i++) {
+        for (int i = begin; i <= end; i++) {
             int j = i;
             int first = j % 10;
             j /= 10;
@@ -22,7 +22,7 @@ public class ExamNumbers_13 {
             int third = j % 10;
 
             if ((first + second + third) == sum) {
-                System.out.printf("%d%d%d%n",third,second,first);
+                System.out.printf("%d%d%d%n", third, second, first);
             }
         }
     }

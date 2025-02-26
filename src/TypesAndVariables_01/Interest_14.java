@@ -12,8 +12,8 @@ public class Interest_14 {
         double interest2 = interest1 * (1 + 0.05);
         double interest3 = interest2 * (1 + 0.05);
 
-        System.out.printf("%.2f%n",interest1);
-        System.out.printf("%.2f%n",interest2);
-        System.out.printf("%.2f%n",interest3);
+        System.out.printf("%.2f%n", interest1);
+        System.out.printf("%.2f%n", interest2);
+        System.out.printf("%.2f%n", interest3);
     }
 }

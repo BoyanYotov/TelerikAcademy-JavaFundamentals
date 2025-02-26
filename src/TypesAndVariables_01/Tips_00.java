@@ -10,7 +10,7 @@ public class Tips_00 {
         double mealPrice = Double.parseDouble(scanner.nextLine());
         double finalPrice = mealPrice * 1.1;
 
-        System.out.printf("%.0f",finalPrice);
+        System.out.printf("%.0f", finalPrice);
 
     }
 }

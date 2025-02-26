@@ -13,7 +13,7 @@ public class Time_13 {
 
         double result = seconds + (minutes * 60) + (hours * 60 * 60) + (days * 60 * 60 * 24);
 
-        System.out.printf("%.0f",result);
+        System.out.printf("%.0f", result);
 
     }
 }

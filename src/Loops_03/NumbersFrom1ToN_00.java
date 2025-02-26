@@ -8,8 +8,8 @@ public class NumbersFrom1ToN_00 {
 
         int n = scanner.nextInt();
 
-        for (int i = 1; i <= n ; i++) {
-            System.out.print(i + " " );
+        for (int i = 1; i <= n; i++) {
+            System.out.print(i + " ");
         }
     }
 }

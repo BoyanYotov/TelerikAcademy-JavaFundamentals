@@ -15,7 +15,7 @@ public class QuadraticEquation_15 {
         double x1 = (-b - Math.sqrt(d)) / (2 * a);
         double x2 = (-b + Math.sqrt(d)) / (2 * a);
 
-        System.out.printf("x1=%.1f%n",x1 + 0.0);
-        System.out.printf("x2=%.1f",x2 + 0.0);
+        System.out.printf("x1=%.1f%n", x1 + 0.0);
+        System.out.printf("x2=%.1f", x2 + 0.0);
     }
 }

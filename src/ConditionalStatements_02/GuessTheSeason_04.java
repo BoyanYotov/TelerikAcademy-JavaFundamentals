@@ -9,7 +9,7 @@ public class GuessTheSeason_04 {
         String month = scanner.nextLine();
         int day = Integer.parseInt(scanner.nextLine());
 
-        switch (month){
+        switch (month) {
             case "January":
             case "February":
                 System.out.print("Winter");
@@ -28,32 +28,32 @@ public class GuessTheSeason_04 {
                 break;
         }
 
-        if (month.equals("March")){
-            if (day < 20){
+        if (month.equals("March")) {
+            if (day < 20) {
                 System.out.print("Winter");
             } else {
                 System.out.print("Spring");
             }
         }
 
-        if (month.equals("June")){
-            if (day < 21){
+        if (month.equals("June")) {
+            if (day < 21) {
                 System.out.print("Spring");
             } else {
                 System.out.print("Summer");
             }
         }
 
-        if (month.equals("September")){
-            if (day < 22){
+        if (month.equals("September")) {
+            if (day < 22) {
                 System.out.print("Summer");
             } else {
                 System.out.print("Autumn");
             }
         }
 
-        if (month.equals("December")){
-            if (day < 21){
+        if (month.equals("December")) {
+            if (day < 21) {
                 System.out.print("Autumn");
             } else {
                 System.out.print("Winter");

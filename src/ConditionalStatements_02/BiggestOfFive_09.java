@@ -14,16 +14,16 @@ public class BiggestOfFive_09 {
 
         int biggest = a;
 
-        if (b > a){
-           biggest = b;
+        if (b > a) {
+            biggest = b;
         }
-        if (c > biggest){
+        if (c > biggest) {
             biggest = c;
         }
-        if (d > biggest){
+        if (d > biggest) {
             biggest = d;
         }
-        if (e > biggest){
+        if (e > biggest) {
             biggest = e;
         }
 

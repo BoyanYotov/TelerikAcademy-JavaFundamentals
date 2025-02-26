@@ -9,7 +9,7 @@ public class NumberComparer_09 {
         int a = Integer.parseInt(scanner.nextLine());
         int b = Integer.parseInt(scanner.nextLine());
 
-        int result = Math.max(a,b);
+        int result = Math.max(a, b);
 
         System.out.println(result);
     }

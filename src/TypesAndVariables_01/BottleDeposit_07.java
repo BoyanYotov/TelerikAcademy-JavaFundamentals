@@ -11,7 +11,7 @@ public class BottleDeposit_07 {
 
         double deposit = (bottles05L * 0.1) + (bottles1L * 0.25);
 
-        System.out.printf("%.2f",deposit);
+        System.out.printf("%.2f", deposit);
 
     }
 }

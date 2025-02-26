@@ -6,11 +6,11 @@ public class OddOrEvenProduct_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-            int lines = Integer.parseInt(scanner.nextLine());
-            long productOddLines = 1;
-            long productEvenLines = 1;
+        int lines = Integer.parseInt(scanner.nextLine());
+        long productOddLines = 1;
+        long productEvenLines = 1;
 
-         for (int i = 1; i <= lines; i++) {
+        for (int i = 1; i <= lines; i++) {
             int number = scanner.nextInt();
             if (i % 2 != 0) {
                 productOddLines *= number;

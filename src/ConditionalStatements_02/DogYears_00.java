@@ -9,11 +9,11 @@ public class DogYears_00 {
         int humanYears = Integer.parseInt(scanner.nextLine());
         int dogYears = 0;
 
-        if (humanYears == 1){
+        if (humanYears == 1) {
             dogYears = 10;
-        } else if (humanYears == 2){
+        } else if (humanYears == 2) {
             dogYears = 20;
-        } else if (humanYears > 2){
+        } else if (humanYears > 2) {
             dogYears = 20 + (humanYears - 2) * 4;
         }
 

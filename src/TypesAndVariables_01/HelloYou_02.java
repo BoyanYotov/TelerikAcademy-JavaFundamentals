@@ -9,6 +9,6 @@ public class HelloYou_02 {
 
         String name = scanner.nextLine();
 
-        System.out.printf("Hello, %s!",name);
+        System.out.printf("Hello, %s!", name);
     }
 }

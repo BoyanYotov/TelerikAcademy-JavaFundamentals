@@ -20,7 +20,7 @@ public class LongestString_11 {
             if (length > longest) {
                 longest = length;
                 bestfood = food;
-            } else if (length == longest){
+            } else if (length == longest) {
                 bestfood = food;
             }
         }

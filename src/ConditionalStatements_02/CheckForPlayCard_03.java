@@ -8,7 +8,7 @@ public class CheckForPlayCard_03 {
 
         String input = scanner.nextLine();
 
-        switch (input){
+        switch (input) {
             case "2":
             case "3":
             case "4":
@@ -26,6 +26,6 @@ public class CheckForPlayCard_03 {
                 break;
             default:
                 System.out.print("no");
-         }
+        }
     }
 }

@@ -11,8 +11,8 @@ public class Converter_06 {
         double kilometers = mpg * 1.6;
         double liters = 4.54;
 
-        double europeanPMG = Math.floor ((4.54 / kilometers) * 100);
+        double europeanPMG = Math.floor((4.54 / kilometers) * 100);
 
-        System.out.printf("%.0f litres per 100 km",europeanPMG);
+        System.out.printf("%.0f litres per 100 km", europeanPMG);
     }
 }

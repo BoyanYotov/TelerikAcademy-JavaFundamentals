@@ -14,7 +14,7 @@ public class SortThreeNumbers_11 {
             if (a > c) {
                 System.out.printf("%d %d %d", b, a, c);
             } else {
-                System.out.printf("%d %d %d", b, c,a);
+                System.out.printf("%d %d %d", b, c, a);
             }
         }
 

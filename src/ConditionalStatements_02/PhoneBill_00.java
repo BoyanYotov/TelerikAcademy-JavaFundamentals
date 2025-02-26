@@ -12,13 +12,13 @@ public class PhoneBill_00 {
         double addtionalMessages = 0;
         double additionalMinutes = 0;
 
-        if (messages > 20){
+        if (messages > 20) {
             addtionalMessages = messages - 20;
         } else {
             addtionalMessages = 0;
         }
 
-        if (minutes > 60){
+        if (minutes > 60) {
             additionalMinutes = (minutes - 60);
         } else {
             additionalMinutes = 0;
@@ -29,9 +29,9 @@ public class PhoneBill_00 {
         double additionalTax = (additionalMessagesTax + addtionalMinutesTax) * 0.2;
         double total = 12 + addtionalMinutesTax + additionalMessagesTax + additionalTax;
 
-        System.out.printf("%.0f additional messages for %.2f levas%n",addtionalMessages,additionalMessagesTax);
-        System.out.printf("%.0f additional minutes for %.2f levas%n",additionalMinutes,addtionalMinutesTax);
-        System.out.printf("%.2f additional taxes%n",additionalTax);
-        System.out.printf("%.2f total bill",total);
+        System.out.printf("%.0f additional messages for %.2f levas%n", addtionalMessages, additionalMessagesTax);
+        System.out.printf("%.0f additional minutes for %.2f levas%n", additionalMinutes, addtionalMinutesTax);
+        System.out.printf("%.2f additional taxes%n", additionalTax);
+        System.out.printf("%.2f total bill", total);
     }
 }

@@ -25,21 +25,21 @@ public class BeerTime_14 {
         int hoursNumber = Integer.parseInt(hour);
         int minutesNumber = Integer.parseInt(minutes);
 
-        if (hoursNumber<0 || hoursNumber>12){
+        if (hoursNumber < 0 || hoursNumber > 12) {
             System.out.println("invalid time");
             return;
         }
 
-        if (minutesNumber<0 || minutesNumber>59){
+        if (minutesNumber < 0 || minutesNumber > 59) {
             System.out.println("invalid time");
             return;
         }
 
-        if (day.equals("PM") && hoursNumber >= 1){
+        if (day.equals("PM") && hoursNumber >= 1) {
             System.out.print("beer time");
-        } else if (day.equals("AM") && hoursNumber < 3 && minutesNumber < 60){
+        } else if (day.equals("AM") && hoursNumber < 3 && minutesNumber < 60) {
             System.out.print("beer time");
-        } else if (day.equals("AM") && hoursNumber >= 3){
+        } else if (day.equals("AM") && hoursNumber >= 3) {
             System.out.print("non-beer time");
         } else {
             System.out.println("invalid time");

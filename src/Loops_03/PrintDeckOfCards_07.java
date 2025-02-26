@@ -35,7 +35,7 @@ public class PrintDeckOfCards_07 {
                 System.out.println("J of spades, J of clubs,J of hearts, J of diamonds");
                 System.out.println("Q of spades, Q of clubs,Q of hearts, Q of diamonds");
                 System.out.println("K of spades, K of clubs,K of hearts, K of diamonds");
-            } else if (input.equals("A")){
+            } else if (input.equals("A")) {
                 for (int i = 2; i <= 10; i++) {
                     System.out.printf("%d of spades, %d of clubs, %d of hearts, %d of diamonds%n", i, i, i, i);
                 }

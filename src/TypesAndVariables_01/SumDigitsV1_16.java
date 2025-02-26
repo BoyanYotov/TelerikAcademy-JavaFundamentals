@@ -8,10 +8,10 @@ public class SumDigitsV1_16 {
 
         String number = scanner.nextLine();
 
-        String firstDigit = number.substring(0,1);
-        String secondDigit = number.substring(1,2);
-        String thirdDigit = number.substring(2,3);
-        String fourthDigit = number.substring(3,4);
+        String firstDigit = number.substring(0, 1);
+        String secondDigit = number.substring(1, 2);
+        String thirdDigit = number.substring(2, 3);
+        String fourthDigit = number.substring(3, 4);
 
         int a = Integer.parseInt(firstDigit);
         int b = Integer.parseInt(secondDigit);

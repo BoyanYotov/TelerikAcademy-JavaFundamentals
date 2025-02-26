@@ -10,15 +10,15 @@ public class SumOfGreatestAndSmallest_12 {
         double b = Double.parseDouble(scanner.nextLine());
         double c = Double.parseDouble(scanner.nextLine());
 
-        double bigger = Math.max(a,b);
-        double biggest = Math.max(bigger,c);
+        double bigger = Math.max(a, b);
+        double biggest = Math.max(bigger, c);
 
-        double smaller = Math.min(a,b);
-        double smallest = Math.min(smaller,c);
+        double smaller = Math.min(a, b);
+        double smallest = Math.min(smaller, c);
 
         double sum = biggest + smallest;
 
-        System.out.printf("%.0f",sum);
+        System.out.printf("%.0f", sum);
 
     }
 }

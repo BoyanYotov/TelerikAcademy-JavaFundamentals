@@ -11,9 +11,9 @@ public class MultiplicationSignV1_08 {
         double b = Double.parseDouble(scanner.nextLine());
         double c = Double.parseDouble(scanner.nextLine());
 
-        if ((a * b * c) > 0){
+        if ((a * b * c) > 0) {
             System.out.print("+");
-        } else if ((a * b * c) == 0){
+        } else if ((a * b * c) == 0) {
             System.out.print("0");
         } else {
             System.out.print("-");

@@ -9,12 +9,12 @@ public class FindAverage_01 {
         int n = Integer.parseInt(scanner.nextLine());
         double sum = 0;
 
-        for (int i = 1; i <= n ; i++) {
+        for (int i = 1; i <= n; i++) {
             double newNumber = Double.parseDouble(scanner.nextLine());
             sum += newNumber;
         }
 
         double avg = sum / n;
-        System.out.printf("%.2f",avg);
+        System.out.printf("%.2f", avg);
     }
 }

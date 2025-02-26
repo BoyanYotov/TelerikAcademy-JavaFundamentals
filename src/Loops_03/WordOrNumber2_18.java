@@ -24,7 +24,8 @@ public class WordOrNumber2_18 {
 
                 if (wordnumber == 1) {
                     chainWords = input;
-                } if (wordnumber>1){
+                }
+                if (wordnumber > 1) {
                     chainWords += ("-" + input);
                 }
             }

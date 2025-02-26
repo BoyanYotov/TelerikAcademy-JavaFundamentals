@@ -12,6 +12,6 @@ public class SumPositive_08 {
 
         System.out.println(sum);
 
-        }
     }
+}
 

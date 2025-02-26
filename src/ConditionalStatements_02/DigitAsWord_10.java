@@ -8,7 +8,7 @@ public class DigitAsWord_10 {
 
         String input = scanner.nextLine();
 
-        switch (input){
+        switch (input) {
             case "0":
                 System.out.println("zero");
                 break;

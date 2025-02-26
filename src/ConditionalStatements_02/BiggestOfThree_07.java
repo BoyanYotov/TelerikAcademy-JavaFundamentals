@@ -12,12 +12,12 @@ public class BiggestOfThree_07 {
 
         int biggestNumber = number1;
 
-        if (number2 > number1){
+        if (number2 > number1) {
             biggestNumber = number2;
         }
 
-        if (number3 >= biggestNumber){
-            biggestNumber=number3;
+        if (number3 >= biggestNumber) {
+            biggestNumber = number3;
         }
 
         System.out.print(biggestNumber);

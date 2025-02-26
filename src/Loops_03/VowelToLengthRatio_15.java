@@ -39,16 +39,16 @@ public class VowelToLengthRatio_15 {
 
             ratio = vowels * 1.0 / length;
 
-            if ((ratio < bestRatio)){
+            if ((ratio < bestRatio)) {
                 bestRatio = ratio;
                 bestVowels = vowels;
                 bestFood = food;
                 bestLetters = letters;
-            } else if ((ratio == bestRatio) && (vowels > bestVowels)){
+            } else if ((ratio == bestRatio) && (vowels > bestVowels)) {
                 bestFood = food;
                 bestVowels = vowels;
                 bestLetters = letters;
-            } else if ((ratio == bestRatio) && (vowels == bestVowels) && (letters > bestLetters)){
+            } else if ((ratio == bestRatio) && (vowels == bestVowels) && (letters > bestLetters)) {
                 bestFood = food;
                 bestVowels = vowels;
                 bestLetters = letters;

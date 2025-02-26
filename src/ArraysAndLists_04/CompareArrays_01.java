@@ -10,24 +10,20 @@ public class CompareArrays_01 {
         int[] firstArray = new int[n];
         int[] secondArray = new int[n];
 
-        for (int i = 0; i < n ; i++) {
+        for (int i = 0; i < n; i++) {
             firstArray[i] = Integer.parseInt(scanner.nextLine());
         }
 
-        for (int i = 0;i < n ; i++) {
+        for (int i = 0; i < n; i++) {
             secondArray[i] = Integer.parseInt(scanner.nextLine());
         }
         boolean areEqual = true;
 
-        for (int i = 0; i < n ; i++) {
-            if (firstArray[i] == secondArray[i]){
-                    areEqual = true;
-            } else {
-                areEqual = false;
-            }
+        for (int i = 0; i < n; i++) {
+            areEqual = firstArray[i] == secondArray[i];
         }
 
-        if (areEqual){
+        if (areEqual) {
             System.out.println("equal");
         } else {
             System.out.println("not equal");

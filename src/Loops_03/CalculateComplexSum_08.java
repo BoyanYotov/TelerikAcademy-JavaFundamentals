@@ -12,9 +12,9 @@ public class CalculateComplexSum_08 {
         double S = 0;
         int factorial = 1;
 
-        for (int i = 1; i <= n ; i++) {
+        for (int i = 1; i <= n; i++) {
             factorial *= i;
-            half = factorial / Math.pow(x,(i));
+            half = factorial / Math.pow(x, (i));
             S += half;
         }
         System.out.printf("%.5f", S + 1);

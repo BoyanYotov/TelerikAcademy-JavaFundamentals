@@ -9,16 +9,16 @@ public class MatrixNumbers_09 {
         int n = Integer.parseInt(scanner.nextLine());
         int jump = 0;
 
-        for (int i = 1; i <= n ; i++) {
+        for (int i = 1; i <= n; i++) {
 
             if (i > 1) {
                 jump++;
-                for (int j = i; j <= (n + jump) ; j++) {
-                    System.out.print(j+" ");
+                for (int j = i; j <= (n + jump); j++) {
+                    System.out.print(j + " ");
                 }
             } else {
                 for (int j = i; j <= n; j++) {
-                    System.out.print(j+" ");
+                    System.out.print(j + " ");
                 }
             }
             System.out.println();

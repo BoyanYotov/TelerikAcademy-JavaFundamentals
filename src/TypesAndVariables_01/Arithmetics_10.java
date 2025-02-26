@@ -13,7 +13,7 @@ public class Arithmetics_10 {
         int diff = a - b;
         int product = a * b;
         int rem = a % b;
-        int pow = (int)Math.pow(a,b);
+        int pow = (int) Math.pow(a, b);
 
         System.out.println(sum);
         System.out.println(diff);

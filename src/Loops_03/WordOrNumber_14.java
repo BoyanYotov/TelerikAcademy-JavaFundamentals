@@ -10,15 +10,15 @@ public class WordOrNumber_14 {
         String input = scanner.nextLine();
         String newInput = "";
         char letter;
-        char last = input.charAt(input.length()-1);
+        char last = input.charAt(input.length() - 1);
 
         if ((last >= 97 && last <= 122) || (last >= 65 && last <= 95)) {
-            for (int i = input.length()-1; i >= 0; i--) {
+            for (int i = input.length() - 1; i >= 0; i--) {
                 letter = input.charAt(i);
                 System.out.printf("%c", letter);
             }
-        }else if ((last >= 48 && last <= 57)){
-            double number = Double.parseDouble(input)+1;
+        } else if ((last >= 48 && last <= 57)) {
+            double number = Double.parseDouble(input) + 1;
             DecimalFormat df1 = new DecimalFormat("###.###");
             System.out.println(df1.format(number));
         }

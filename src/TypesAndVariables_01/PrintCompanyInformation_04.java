@@ -18,11 +18,11 @@ public class PrintCompanyInformation_04 {
         String managerPhone = scanner.nextLine();
 
         System.out.println(name);
-        System.out.printf("Address: %s%n",address);
-        System.out.printf("Tel. %s%n",phoneNumber);
-        System.out.printf("Fax: %s%n",faxNumber);
-        System.out.printf("Web site: %s%n",webSite);
-        System.out.printf("Manager: %s %s (age: %d, tel. %s)",managerName,managerSurname,managerAge,managerPhone);
+        System.out.printf("Address: %s%n", address);
+        System.out.printf("Tel. %s%n", phoneNumber);
+        System.out.printf("Fax: %s%n", faxNumber);
+        System.out.printf("Web site: %s%n", webSite);
+        System.out.printf("Manager: %s %s (age: %d, tel. %s)", managerName, managerSurname, managerAge, managerPhone);
 
     }
 }

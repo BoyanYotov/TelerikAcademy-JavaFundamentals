@@ -12,8 +12,8 @@ public class CirclePerimeterAndArea_05 {
         double perimeter = 2 * radius * Math.PI;
         double area = Math.PI * radius * radius;
 
-        System.out.printf("%.2f%n",perimeter);
-        System.out.printf("%.2f",area);
+        System.out.printf("%.2f%n", perimeter);
+        System.out.printf("%.2f", area);
 
     }
 }

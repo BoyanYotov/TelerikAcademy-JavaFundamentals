@@ -8,10 +8,10 @@ public class CalculateDiscount_06 {
 
         int n = Integer.parseInt(scanner.nextLine());
 
-        for (int i = 1; i <= n ; i++) {
+        for (int i = 1; i <= n; i++) {
             double price = scanner.nextDouble();
             double discounted = price * 0.35;
-            System.out.printf("%.2f%n",discounted);
+            System.out.printf("%.2f%n", discounted);
             scanner.nextLine();
         }
     }

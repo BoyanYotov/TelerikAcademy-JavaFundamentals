@@ -44,7 +44,7 @@ public class WordOrNumber3_19 {
 
                 currentIsDigit = false;
                 currentIsWord = false;
-                      continue;
+                continue;
             }
 
 

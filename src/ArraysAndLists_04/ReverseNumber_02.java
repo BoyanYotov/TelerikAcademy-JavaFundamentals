@@ -12,7 +12,7 @@ public class ReverseNumber_02 {
         String input = scanner.nextLine();
         List<Character> listOfNumber = new ArrayList<>();
 
-        for (int i = 0; i <= input.length()-1 ; i++) {
+        for (int i = 0; i <= input.length() - 1; i++) {
             char digit = input.charAt(i);
             listOfNumber.add(digit);
         }

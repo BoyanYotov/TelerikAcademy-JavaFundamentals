@@ -7,6 +7,6 @@ public class HelloWorld_00 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Hello," +" "+scanner.nextLine());
+        System.out.println("Hello," + " " + scanner.nextLine());
     }
 }

@@ -12,7 +12,7 @@ public class ChessSquareColor_05 {
         boolean isEven = (ranks % 2 == 0);
         boolean isACDEG = true;
 
-        switch (labels){
+        switch (labels) {
             case "a":
             case "c":
             case "e":
@@ -22,13 +22,13 @@ public class ChessSquareColor_05 {
                 isACDEG = false;
         }
 
-        if (isACDEG && isEven){
+        if (isACDEG && isEven) {
             System.out.print("light");
-        } else if (isACDEG && !isEven){
+        } else if (isACDEG && !isEven) {
             System.out.print("dark");
-        } else if (!isACDEG && !isEven){
+        } else if (!isACDEG && !isEven) {
             System.out.print("light");
-        } else if (!isACDEG && isEven){
+        } else if (!isACDEG && isEven) {
             System.out.print("dark");
         }
 
